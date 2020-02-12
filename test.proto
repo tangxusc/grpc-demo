@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-package main;
-
 service Hello {
     rpc SayHello (HelloRequest) returns (HelloReply) {
     }
